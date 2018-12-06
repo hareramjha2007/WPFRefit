@@ -35,7 +35,7 @@ namespace WPFClient
 		static async Task MainAsync()
 		{
 			var gitHubApi = RestService.For<IUserApi>("https://localhost:5001");
-			var user = await gitHubApi.GetUserByLoginName("hare");
+			var user = await gitHubApi.GetUserByLoginName("XXXX");
 		}
 	}
 }
